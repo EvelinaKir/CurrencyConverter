@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body{
+  background-color: #EBEBEB;
+}
+
+a, li,ul, span, h1, h2, h3, h4, h5, h6, input[type="text"], button {
+    color: #201E1F;
+        list-style: none;
+        outline: none;
+          text-decoration: none;
+          font-family: Raleway; 
+          font-size: 2em;  
+          padding: 0px;
+          margin: 0px;
+          border-radius: 8px;
+      }
+ 
+  
+  
+      ::-webkit-scrollbar {
+        width: 1vw;
+      }
+      
+      ::-webkit-scrollbar-track{
+        background: rgba(112, 112, 112, 0.349);
+        border-radius: 100px;
+      }
+      
+      ::-webkit-scrollbar-thumb{
+        background: #F6AE2D;
+        border-top: 5px solid #FEDB71;
+        border-bottom: 5px solid #FEDB71;
+        border-radius: 100px;
+      }
+

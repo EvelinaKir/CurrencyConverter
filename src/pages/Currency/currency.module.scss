@@ -1,0 +1,35 @@
+.container{
+    max-width: 1190px;
+    height: 70vh;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 8px;
+    border: 1px solid #201E1F;
+    overflow-y: scroll;
+    background-color: rgba(112, 112, 112, 0.212);
+
+}
+
+.OneCurrentcy{
+    display: flex;align-content: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #201E1F;
+    button{
+        background: inherit;
+        border: none;
+        padding: 1vh 1vw;
+        &:active{
+            background-color: rgba(112, 112, 112, 0.411);
+        }
+    }
+    h1, h2, h4{
+       display: block; 
+    }
+    h4{
+        color: rgb(82, 82, 82);
+    }
+
+    &:hover{
+        background: rgba(112, 112, 112, 0.212);
+    }
+}

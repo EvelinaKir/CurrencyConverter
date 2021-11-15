@@ -1,0 +1,21 @@
+.container {
+
+    img {
+    max-width: 20vw;
+    max-height: 20vh;
+    display: block;
+    margin: 30vh auto;
+    animation: foreverSpin 3s linear infinite;
+    }
+}
+
+
+@keyframes foreverSpin {
+    from {
+        transform: rotate(0);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
